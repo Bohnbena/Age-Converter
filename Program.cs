@@ -26,6 +26,8 @@ namespace Calculate_Age
 
             var input = Console.ReadLine();
 
+            // Read up on "enums". This could be a better case for using this
+            // https://www.w3schools.com/cs/cs_enums.php
             string Month="M";
             string Day="D";
             string Week="W";
@@ -34,7 +36,7 @@ namespace Calculate_Age
             string Seconds="S";
             string end="E";
           
-
+            // Make this into a switch statement
             if (input == Month)
             {
                 Console.Clear();
